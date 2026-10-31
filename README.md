@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mnemoverse-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mnemoverse.com/
+Mnemoverse provides a persistent memory API for AI agents, enabling them to write preferences or lessons once and recall them across various tools such as Claude, Cursor, ChatGPT, or any HTTP client. The service offers a free tier with 1,000 queries per day, supports OAuth and API key authentication, and includes features like Hebbian associations, feedback-driven recall tuning, and cross-platform SDKs.
+
+**Areas:** Company · AI · Memory · API · Persistent
+
+## mnemoverse-com on APIs.io
+
+Everything profiled for mnemoverse-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mnemoverse-com/](https://apis.io/providers/mnemoverse-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [mnemoverse-com Memory API](https://apis.io/apis/mnemoverse-com/mnemoverse-com-memory-api/) — The Memory API from mnemoverse-com — 4 operation(s) for memory.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Mnemoverse Com Agentic Access](https://apis.io/agentic-access/mnemoverse-com/mnemoverse-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [FeedbackRequest](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-feedback-request/)
+- [ReadRequest](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-read-request/)
+- [ReadResponse](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-read-response/)
+- [StatsResponse](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-stats-response/)
+- [WriteRequest](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-write-request/)
+- [WriteResponse](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-write-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mnemoverse Com Context](https://apis.io/jsonld/mnemoverse-com/mnemoverse-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [mnemoverse-com API Rules](https://apis.io/rules/mnemoverse-com/mnemoverse-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mnemoverse Com Authentication](https://apis.io/security/mnemoverse-com/mnemoverse-com-authentication/)
+- [Mnemoverse Com Domain Security](https://apis.io/security/mnemoverse-com/mnemoverse-com-domain-security/)
+- [Mnemoverse Com Vulnerability Disclosure](https://apis.io/security/mnemoverse-com/mnemoverse-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Mnemoverse Com Plans Pricing](https://apis.io/plans/mnemoverse-com/mnemoverse-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mnemoverse.com/)
+- [Documentation](https://mnemoverse.com/docs/)
+- [Getting started](https://mnemoverse.com/docs/api/chatgpt)
+- [API reference](https://mnemoverse.com/docs/llms.txt)
+- [Pricing](https://mnemoverse.com/pricing)
+- [Support](https://mnemoverse.com/support)
+- [Changelog](https://mnemoverse.com/docs/changelog)
+- [Security](https://mnemoverse.com/docs/api/security)
+- [Terms of service](https://mnemoverse.com/docs/legal/terms-of-service)
+- [Privacy policy](https://mnemoverse.com/docs/legal/privacy-policy)
+- [GitHub](https://github.com/mnemoverse)
+
+## API Evangelist rating
+
+**Kin Score 62.0** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 73.2 |
+
+**Agent readiness 46.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mnemoverse-com/](https://apis.io/providers/mnemoverse-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for mnemoverse-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mnemoverse-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
