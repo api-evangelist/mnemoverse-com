@@ -1,4 +1,4 @@
-# mnemoverse-com
+# Mnemoverse
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,36 +64,59 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Mnemoverse provides a persistent memory API for AI agents, enabling them to write preferences or lessons once and recall them across various tools such as Claude, Cursor, ChatGPT, or any HTTP client. The service offers a free tier with 1,000 queries per day, supports OAuth and API key authentication, and includes features like Hebbian associations, feedback-driven recall tuning, and cross-platform SDKs.
+Mnemoverse provides a persistent memory API for AI agents, enabling them to write preferences or lessons once and recall them across a wide range of tools such as Claude, Cursor, ChatGPT, VS Code, Python SDKs, and any HTTP client. The service offers a generous free tier with 1,000 queries per day, supports both OAuth and API key authentication, and includes advanced features like Hebbian associations, feedback‑driven recall tuning, cross‑platform SDKs, and detailed usage analytics. It aims to simplify stateful interactions for LLM‑driven applications, providing reliable, low‑latency storage that scales with developer needs.
 
 **Areas:** Company · AI · Memory · API · Persistent
 
-## mnemoverse-com on APIs.io
+## Mnemoverse on APIs.io
 
-Everything profiled for mnemoverse-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mnemoverse-com/](https://apis.io/providers/mnemoverse-com/)** — or go straight to one of the APIs or properties below.
+Everything profiled for Mnemoverse is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mnemoverse-com/](https://apis.io/providers/mnemoverse-com/)** — or go straight to one of the APIs or properties below.
 
-### APIs (1)
+### APIs (5)
 
-- [mnemoverse-com Memory API](https://apis.io/apis/mnemoverse-com/mnemoverse-com-memory-api/) — The Memory API from mnemoverse-com — 4 operation(s) for memory.
+- [Mnemoverse Health API](https://apis.io/apis/mnemoverse-com/mnemoverse-com-health-api/) — The health API from Mnemoverse — 2 operation(s) for health.
+- [Mnemoverse Memory API](https://apis.io/apis/mnemoverse-com/mnemoverse-com-memory-api/) — The Memory API from Mnemoverse — 19 operation(s) for memory.
+- [Mnemoverse Memory V1 API](https://apis.io/apis/mnemoverse-com/mnemoverse-com-memory-v1-api/) — The memory-v1 API from Mnemoverse — 8 operation(s) for memory-v1.
+- [Mnemoverse Vault API](https://apis.io/apis/mnemoverse-com/mnemoverse-com-vault-api/) — The vault API from Mnemoverse — 2 operation(s) for vault.
+- [Mnemoverse Core API](https://apis.io/apis/mnemoverse-com/mnemoverse-com-core-api/) — Core API providing memory operations and other services.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [mnemoverse-com-mcp.yml](https://apis.io/servers/mnemoverse-com/mnemoverse-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Mnemoverse Com Agentic Access](https://apis.io/agentic-access/mnemoverse-com/mnemoverse-com-agentic-access/)
+- [Mnemoverse Agentic Access](https://apis.io/agentic-access/mnemoverse-com/mnemoverse-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (19)
 
 The data models the API reads and writes.
 
+- [AtomChainSchema](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-atom-chain-schema/)
+- [AtomDetailSchema](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-atom-detail-schema/)
+- [CreateSecretRequest](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-create-secret-request/)
+- [CreateSecretResponse](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-create-secret-response/)
 - [FeedbackRequest](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-feedback-request/)
+- [HealthResponseSchema](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-health-response-schema/)
+- [QueryRequestSchema](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-query-request-schema/)
 - [ReadRequest](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-read-request/)
 - [ReadResponse](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-read-response/)
+- [ReadResponseSchema](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-read-response-schema/)
+- [ReadyResponseSchema](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-ready-response-schema/)
+- [ReplaceSecretRequest](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-replace-secret-request/)
+- [ReplaceSecretResponse](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-replace-secret-response/)
+- [RetireSecretResponse](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-retire-secret-response/)
+- [SealedSecretResponse](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-sealed-secret-response/)
 - [StatsResponse](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-stats-response/)
+- [WriteBatchResponseSchema](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-write-batch-response-schema/)
 - [WriteRequest](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-write-request/)
 - [WriteResponse](https://apis.io/schemas/mnemoverse-com/mnemoverse-com-write-response/)
 
@@ -107,21 +130,21 @@ Linked-data contexts for the provider's vocabulary.
 
 Spectral rulesets for the provider's contracts.
 
-- [mnemoverse-com API Rules](https://apis.io/rules/mnemoverse-com/mnemoverse-com-rules/)
+- [Mnemoverse API Rules](https://apis.io/rules/mnemoverse-com/mnemoverse-com-rules/)
 
 #### Security (3)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Mnemoverse Com Authentication](https://apis.io/security/mnemoverse-com/mnemoverse-com-authentication/)
-- [Mnemoverse Com Domain Security](https://apis.io/security/mnemoverse-com/mnemoverse-com-domain-security/)
-- [Mnemoverse Com Vulnerability Disclosure](https://apis.io/security/mnemoverse-com/mnemoverse-com-vulnerability-disclosure/)
+- [Mnemoverse Authentication](https://apis.io/security/mnemoverse-com/mnemoverse-com-authentication/)
+- [Mnemoverse Domain Security](https://apis.io/security/mnemoverse-com/mnemoverse-com-domain-security/)
+- [Mnemoverse Vulnerability Disclosure](https://apis.io/security/mnemoverse-com/mnemoverse-com-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Mnemoverse Com Plans Pricing](https://apis.io/plans/mnemoverse-com/mnemoverse-com-plans-pricing/)
+- [Mnemoverse Plans Pricing](https://apis.io/plans/mnemoverse-com/mnemoverse-com-plans-pricing/)
 
 ## Where to find this API
 
@@ -141,32 +164,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 62.0** — strong · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 57.1** — strong · rubric 0.27.0 · scored 2026-11-12
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 58.9 |
-| Contract governance | 79.1 |
+| Discoverability | 65.0 |
+| Contract quality | 65.8 |
+| Contract governance | 22.0 |
 | Operational transparency | 31.6 |
-| Developer ergonomics | 52.4 |
-| Access clarity | 73.2 |
+| Developer ergonomics | 54.2 |
+| Access clarity | 76.3 |
 
-**Agent readiness 46.7** — agent-ready (gated down from agent-native)
+**Agent readiness 49.6** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
+| Error Semantics | verified |
 | OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Rate Limit Signal | verified |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | flavored (partial credit) |
@@ -175,8 +198,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
-| Pagination Ratio | na |
+| Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
 
 **Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
 
@@ -186,7 +210,7 @@ The rubric is published at [github.com/api-evangelist/kin-score](https://github.
 
 API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for mnemoverse-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mnemoverse: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
 ## Open an issue
 
